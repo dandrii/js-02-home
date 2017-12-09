@@ -18,7 +18,6 @@ document.write(`Number: ${prev}`);
 // Array
 
 let fibo = [1, 1];
-let next1;
 
 for (let i = 3; i <= n2; i++) {
     let next1 = fibo[fibo.length - 1] + fibo[fibo.length - 2];
@@ -34,6 +33,7 @@ function fibo1(n3) {
         return n3;
     else {
         return fibo1(n3 - 1) + fibo1(n3 - 2);
+
     }
 }
 document.write(`<br>Number: ${fibo1(n3)}`);
